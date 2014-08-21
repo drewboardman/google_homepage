@@ -1,0 +1,109 @@
+
+div {margin: o; padding: 0;}
+
+.middle_area {
+	margin-top: 150px;
+	width: 100%;
+	text-align: center;
+	}
+
+.search_but, .lucky {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 7px;
+}
+
+button {
+	padding: 5px 10px;
+	border: 1px solid #dcdcdc;
+	border-radius: 2px;
+	color: #444!important;
+	background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	text-decoration: none!important;
+	font-weight: bold; font-size: 11px;
+}
+
+.searchbar {
+	height: 23px;
+	width: 580px;
+	margin-top: 15px;
+	border: 1px solid #gbqfq;
+}
+
+input[type='text']{
+text-align:right;
+font-family: Arial;
+font-size: 1.05em;
+border: 1px solid rgba(0,0,0,.3);
+}
+
+input[type='text']:focus{
+text-align:left;
+font-family: Arial;
+font-size: 1.05em;
+}
+
+.top_bar {
+	
+	text-align: right;
+}
+
+.navtxt {
+	font: 13px/27px Arial,sans-serif;
+	color: #404040;
+	text-decoration: none;
+}
+
+.navtxt a:link {
+    text-decoration: none;
+}
+
+.navtxt a:visited {
+    text-decoration: none;
+}
+
+.navtxt a:hover {
+    text-decoration: underline;
+}
+
+.avatar, .navtext, .navimg {
+	display: inline-block;
+	margin: 10px 10px ;
+	vertical-align: middle;
+}
+
+.avatar img {
+	border-radius: 50%;
+	height: 30%; width: 30%;
+	display: block;
+	position: relative;
+	/*left: 80px;*/
+}
+
+.bot_bar {
+	background: rgb(242, 242, 242);
+	bottom: 0;
+	position: absolute;
+	line-height: 40px;
+	width: 100%;
+}
+
+.bot_bar ul {
+	display: inline;
+	margin: 0;
+    padding: 0;
+}
+
+.bot_bar li{
+	font: 13px/27px Arial,sans-serif;
+	color: #404040;
+	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+.bot_right li{
+	float: right;
+	vertical-align: middle;
+}
